@@ -1,0 +1,325 @@
+.footer {
+  background: #101010;
+}
+
+.footerContainer {
+  background: url(../../images/bg-figure-footer.svg)
+      no-repeat bottom 16em left -3em,
+    url(../../images/bg-figure-footer.svg)
+      no-repeat top -25em right -13em,
+    #101010;
+  background-size: 605.81px 692.19px;
+}
+
+.button {
+  position: absolute;
+  bottom: 50px;
+  right: 32px;
+  cursor: pointer;
+}
+
+.grid {
+  margin: 0 auto;
+  max-width: 1400px;
+  padding: 80px 35px 110px;
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr 3fr;
+  grid-template-rows: 1fr 2fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "logo contest site-map info"
+    "logo contest site-map nameplates";
+  position: relative;
+}
+
+.logo {
+  grid-area: logo;
+}
+
+.contest {
+  padding-left: 60px;
+  grid-area: contest;
+}
+
+.siteMap {
+  padding-left: 107px;
+  grid-area: site-map;
+}
+
+.info {
+  grid-area: info;
+}
+
+.nameplates {
+  grid-area: nameplates;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation:first-child {
+  gap: 0;
+}
+
+.title {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 20px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 26px;
+  color: #c6a67d;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.text {
+  margin: 0;
+  padding: 0;
+  max-width: 288px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 27px;
+  color: #ffffff;
+}
+
+.phone {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 46px;
+  color: #ffffff;
+}
+
+.email {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 46px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.linkContainer {
+  padding-top: 21px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 30px;
+  padding-left: 300px;
+
+}
+
+.note {
+  display: flex;
+  flex-direction: column;
+  background: #c6a67d;
+  color: #101010;
+}
+
+.noteContainer {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+.privacyPolicy {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.noteText {
+  margin: 0;
+  padding: 0;
+  padding-top: 20px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.privacyPolicyText {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 1266px) {
+  .linkContainer {
+    padding-left: 250px;
+  }
+}
+
+@media screen and (max-width: 1120px) {
+  .grid {
+    grid-template-columns: 269px 280px;
+    grid-template-rows: 74px 174px 129px 37px;
+    gap: 0px 50px;
+    grid-template-areas:
+      "logo site-map"
+      "contest ."
+      "info ."
+      "nameplates .";
+  }
+
+  .contest {
+    padding: 0;
+  }
+
+  .siteMap {
+    padding-left: 51px;
+  }
+
+  .text {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+  }
+
+  .title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+  }
+
+  .phone {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 32px;
+  }
+
+  .email {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 46px;
+  }
+
+  .info {
+    text-align: right;
+  }
+  .linkContainer {
+    padding-left: 124px;
+    padding-top: 0;
+  }
+
+  .navigation:first-child {
+    gap: 8px;
+  }
+
+  .navigation {
+    gap: 0px;
+  }
+
+  .privacyPolicy {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .noteText {
+    padding-top: 20px;
+    max-width: 1305px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  .button {
+    position: absolute;
+    bottom: 60px;
+    right: 111px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .grid {
+    padding: 60px 15px 55px;
+
+    grid-template-columns: 1fr;
+    grid-template-rows: 43px 99px;
+    gap: 0px 0px;
+    grid-template-areas:
+      "nameplates"
+      "info";
+  }
+
+  .noteContainer {
+    padding-left: 20px;
+    padding-right: 20px;
+    background: #101010;
+    color: #6d6d6d;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .siteMap {
+    display: none;
+  }
+
+  .contest {
+    display: none;
+  }
+
+  .linkContainer {
+    padding: 0;
+  }
+
+  .phone {
+    margin-bottom: 5px;
+  }
+
+  .privacyPolicy {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .button {
+    position: absolute;
+    bottom: -151px;
+    right: 13px;
+  }
+  .info {
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .footerContainer {
+    background: url(../../images/bg-figure-footer.svg)
+        no-repeat top 3em left -10em,
+      #101010;
+  }
+  .noteContainer {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}

@@ -1,0 +1,5 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" class="ham hamRotate ham4" viewBox="0 0 100 100" width="100" onclick="this.classList.toggle('active')" height="100" >
+						<path class="line top" d="m 70,33 h -40 c 0,0 -8.5,-0.149796 -8.5,8.5 0,8.649796 8.5,8.5 8.5,8.5 h 20 v -20" stroke="#C6A67D" fill="none" stroke-width="5.5px"></path>
+						<path class="line middle" d="m 70,50 h -25" stroke="#C6A67D" fill="none" stroke-width="5.5px"></path>
+						<path class="line bottom" d="m 30,67 h 40 c 0,0 8.5,0.149796 8.5,-8.5 0,-8.649796 -8.5,-8.5 -8.5,-8.5 h -20 v 20" stroke="#C6A67D" fill="none" stroke-width="5.5px"></path>
+					</svg>
