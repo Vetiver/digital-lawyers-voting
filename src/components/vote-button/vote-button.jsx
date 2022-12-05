@@ -47,8 +47,13 @@ function VoteButton({
 
   if (!isAuthorized) {
     return (
-      <a href="#telegramButton" className={`${styles.button} ${styles.btnToTop}`}>
-        <p>Для голосования <br/> требуется авторизация</p>
+      <a
+        href="#telegramButton"
+        className={`${styles.button} ${styles.btnToTop}`}
+      >
+        <p>
+          Для голосования <br /> требуется авторизация
+        </p>
       </a>
     );
   }

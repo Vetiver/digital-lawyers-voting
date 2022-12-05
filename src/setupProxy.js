@@ -1,31 +1,31 @@
-const { createProxyMiddleware } = require('http-proxy-middleware');
+const { createProxyMiddleware } = require("http-proxy-middleware");
 
-module.exports = function(app) {
+module.exports = function (app) {
   app.use(
-    '/backendAddress',
+    "/backendAddress",
     createProxyMiddleware({
-      target: 'https://client.we.vote',
+      target: "https://client.we.vote",
       changeOrigin: true,
     })
   );
   app.use(
-    '/nodeAddress',
+    "/nodeAddress",
     createProxyMiddleware({
-      target: 'https://client.we.vote',
+      target: "https://client.we.vote",
       changeOrigin: true,
     })
   );
   app.use(
-    '/votingAuthService',
+    "/votingAuthService",
     createProxyMiddleware({
-      target: 'https://client.we.vote',
+      target: "https://client.we.vote",
       changeOrigin: true,
     })
   );
   app.use(
-    '/keysAddress',
+    "/keysAddress",
     createProxyMiddleware({
-      target: 'https://client.we.vote',
+      target: "https://client.we.vote",
       changeOrigin: true,
     })
   );

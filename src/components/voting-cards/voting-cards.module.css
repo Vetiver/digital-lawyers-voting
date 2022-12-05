@@ -1,11 +1,11 @@
 .card {
   width: 100%;
   display: grid;
-    grid-template-areas:
-      "img content"
-      "button content";
-    grid-template-rows: min-content 1fr;
-  
+  grid-template-areas:
+    "img content"
+    "button content";
+  grid-template-rows: min-content 1fr;
+
   gap: 30px;
   color: #101010;
   align-items: start;

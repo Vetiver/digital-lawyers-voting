@@ -32,7 +32,9 @@ function Header() {
         )}
         <div className={styles.headerBottom}>
           <div className={styles.logosContainer}>
-            <a href='https://digital-lawyers.ru/' className={styles.link}><Bonnet className={`${styles.img} ${styles.bonnet}`} /></a>
+            <a href="https://digital-lawyers.ru/" className={styles.link}>
+              <Bonnet className={`${styles.img} ${styles.bonnet}`} />
+            </a>
             <Web3Tech className={styles.img} />
           </div>
           <div className={styles.headingContainer}>

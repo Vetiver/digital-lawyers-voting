@@ -1,5 +1,5 @@
 import styles from "./voting-cards.module.css";
-import { config } from "../../store/weVote/weVote"; 
+import { config } from "../../store/weVote/weVote";
 import VoteButton from "../vote-button/vote-button";
 
 function VotingCards({
@@ -12,7 +12,7 @@ function VotingCards({
   index,
   isAuthorized,
   isVote,
-  setVoteSent
+  setVoteSent,
 }) {
   return (
     <li className={styles.card}>

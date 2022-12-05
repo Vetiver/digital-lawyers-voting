@@ -36,7 +36,7 @@ function Voting({ weVoteApi, websocketWeVoteApi, getVote }) {
 
   const TelegramButton = () => {
     return (
-      <div id='telegramButton' className={styles.telegramBtn}>
+      <div id="telegramButton" className={styles.telegramBtn}>
         <h4>Пожалуйста, авторизуйтесь перед голосованием</h4>
         <TelegramLoginButton
           botName={telegramBotName}

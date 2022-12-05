@@ -3,10 +3,8 @@
 }
 
 .footerContainer {
-  background: url(../../images/bg-figure-footer.svg)
-      no-repeat bottom 16em left -3em,
-    url(../../images/bg-figure-footer.svg)
-      no-repeat top -25em right -13em,
+  background: url(../../images/bg-figure-footer.svg) no-repeat bottom 16em left -3em,
+    url(../../images/bg-figure-footer.svg) no-repeat top -25em right -13em,
     #101010;
   background-size: 605.81px 692.19px;
 }
@@ -120,7 +118,6 @@
   align-items: center;
   gap: 30px;
   padding-left: 300px;
-
 }
 
 .note {
@@ -314,8 +311,7 @@
 
 @media screen and (max-width: 500px) {
   .footerContainer {
-    background: url(../../images/bg-figure-footer.svg)
-        no-repeat top 3em left -10em,
+    background: url(../../images/bg-figure-footer.svg) no-repeat top 3em left -10em,
       #101010;
   }
   .noteContainer {
