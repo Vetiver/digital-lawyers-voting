@@ -12,7 +12,7 @@ function Voting({ weVoteApi, websocketWeVoteApi, getVote }) {
   const [isAuthorized, setAuthorized] = useState(false);
   const [isVote, setVoteSent] = useState(false);
   const votingData = useSelector((state) => state.votingReducer);
-  const telegramBotName = "we_vote_dev_bot";
+  const telegramBotName = "we_vote_bot";
   if (!votingData) {
     return <div>Poll {pollId} loading</div>;
   }
