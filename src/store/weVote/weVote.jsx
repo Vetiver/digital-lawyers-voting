@@ -1,5 +1,5 @@
 import { WeVoteApi } from "@wavesenterprise/we-vote-api";
-export const pollId = 4367; //меняем id голосования и все работает
+export const pollId = 4413//4367; //меняем id голосования и все работает
 export const config = {
   backendAddress: "/backendAddress",
   nodeAddress: "/nodeAddress",
