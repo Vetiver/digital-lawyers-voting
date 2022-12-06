@@ -16,7 +16,7 @@ function Header() {
     <header className={styles.header}>
       <div className={styles.headerContainer}>
         <div className={styles.headerTop}>
-          <MDSLogo className={styles.logo} />
+          <a href="https://digital-lawyers.ru/"><MDSLogo className={styles.logo} /></a>
           <ul className={styles.linksContainer}>
             <NavBar />
           </ul>

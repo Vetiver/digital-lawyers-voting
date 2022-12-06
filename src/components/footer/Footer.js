@@ -47,9 +47,9 @@ function Footer() {
           </div>
           <div className={styles.nameplates}>
             <div className={styles.linkContainer}>
-              <Tg />
-              <Vk />
-              <Yt />
+              <a href='https://vk.com/mosdigitals'><Tg /></a>
+              <a href="https://vk.com/mosdigitals"><Vk /></a>
+              <a href="https://www.youtube.com/channel/UCq-XyFa4IfEg9APZ65dmFnA"><Yt /></a>
             </div>
           </div>
         </div>

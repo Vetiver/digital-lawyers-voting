@@ -23,6 +23,7 @@ function App() {
 
   return (
     <div className={styles.app}>
+      <Header />
       <main className={styles.main}>
         <Voting
           weVoteApi={weVoteApi}
@@ -30,6 +31,7 @@ function App() {
           websocketWeVoteApi={websocketApi}
         />
       </main>
+      <Footer />
     </div>
   );
 }
