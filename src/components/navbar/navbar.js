@@ -5,53 +5,46 @@ function NavBar() {
   return (
     <>
       <li className={styles.listItem}>
-        <NavLink
+        <a href='https://digital-lawyers.ru/how-it-was/'
           className={styles.link}
-          activeClassName={styles.selectedLink}
-          to="/"
         >
           Как это было
-        </NavLink>
+        </a>
       </li>
       <li className={styles.listItem}>
         {" "}
-        <NavLink
+        <a 
+        href='https://digital-lawyers.ru/nominations/'
           className={styles.link}
-          activeClassName={styles.selectedLink}
-          to="/"
         >
           Номинации
-        </NavLink>
+        </a>
       </li>
       <li className={styles.listItem}>
         {" "}
-        <NavLink
+        <a
+        href='https://digital-lawyers.ru/narodnoe-golosovanie/'
           className={styles.link}
-          activeClassName={styles.selectedLink}
-          to="/"
         >
           Народное голосование
-        </NavLink>
+        </a>
       </li>
       <li className={styles.listItem}>
         {" "}
-        <NavLink
+        <a href='https://digital-lawyers.ru/category/news/'
           className={styles.link}
-          activeClassName={styles.selectedLink}
-          to="/"
         >
           Новости
-        </NavLink>
+        </a>
       </li>
       <li className={styles.listItem}>
         {" "}
-        <NavLink
+        <a
+        href='https://digital-lawyers.ru/partners/'
           className={styles.link}
-          activeClassName={styles.selectedLink}
-          to="/"
         >
           Наши партнеры
-        </NavLink>
+        </a>
       </li>
     </>
   );
